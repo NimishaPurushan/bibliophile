@@ -9,7 +9,7 @@
 }
 
 .container {
-  background-color: #111010;
+  background-color: #111010 !IMPORTANT;
   border-bottom: 1px solid #eaecef;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
 }
