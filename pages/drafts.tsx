@@ -28,7 +28,7 @@ export const getServerSideProps = async (context:any) => {
 
   //    // const { data: session, status } = useSession();
   //  console.log(session);
-      const post: IUserWithPosts = await findPostbyAuthorEmail(session?.user?.email);
+      const post: IUserWithPosts = await findPostbyAuthorEmail(session?.user?.email || '');
       //console.log(post);
       return {
         props: post,
